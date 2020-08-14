@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width ,initial-scale=1">
+   <link rel="stylesheet" href="style.css">
+   <title>My portfolio|Home</title>
+   <link rel="icon" type="image" href="logo1.jpg">
+</head>
+  <body>
+    <div class="nav">
+      <img src="aavish.jpg" alt="Aavish Kumar">
+      <div class="menu" id="menu-bar">
+        <span id="toggle" onclick="myfunction()">&#9776;</span>
+        <ul id="list">
+          <a href="index.html"><li>Home</li></a>
+          <a href="about.html"><li>About me</li></a>
+          <a href="contact.html"><li>contact me</li></a>
+          <a href="project.html"><li>my projects</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="body"><br><br>
+      <img src="aavish.jpg" class="photo" alt="Aavish kumar">
+      <div class="home-content">
+        Name:-Aavish kumar <br>
+        College:-IIT KGP
+      </div>
+    </div><br>
+    <footer class="footer">
+      &copy copyright Aavish kumar 2020
+    </footer>
+  <script type="text/javascript">
+  function myfunction(){
+    var x =document.getElementById("list");
+      if(x.style.display == "block"){
+        x.style.display = "none";
+      }
+      else{
+        x.style.display = "block";
+      }
+  }
+  </script>
+  </body>
+</html>
